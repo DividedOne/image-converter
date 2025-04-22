@@ -11,7 +11,23 @@ export const acceptedFiles = {
     ".tiff",
     ".raw",
     ".tga",
+    ".svg",
   ],
-  "audio/*": [],
-  "video/*": [],
+} as const;
+
+export const extensions = {
+  image: [
+    "jpg",
+    "jpeg",
+    "png",
+    "gif",
+    "bmp",
+    "webp",
+    "ico",
+    "tif",
+    "tiff",
+    "svg",
+    "raw",
+    "tga",
+  ],
 } as const;
